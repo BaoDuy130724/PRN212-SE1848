@@ -71,12 +71,12 @@
                 {
                     Console.WriteLine("x = {0}", -b / (2 * a));
                 }
-                else 
-                {
-                    var x1 = (-b + Math.Sqrt(delta)) / (2 * a);
-                    var x2 = (-b - Math.Sqrt(delta)) / (2 * a);
-                    Console.WriteLine("x1 = {0}\nx2 = {1}", x1, x2);
-                }
+                //else 
+                //{
+                //    var x1 = (-b + Math.Sqrt(delta)) / (2 * a);
+                //    var x2 = (-b - Math.Sqrt(delta)) / (2 * a);
+                //    Console.WriteLine("x1 = {0}\nx2 = {1}", x1, x2);
+                //}
             }
         }
         //static void TestRandom()
