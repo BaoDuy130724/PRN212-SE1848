@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.36105.23 d17.13
+VisualStudioVersion = 17.13.36105.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstProject", "FirstProject\FirstProject.csproj", "{E594A5C1-94EE-4847-A215-73049ABD65CB}"
 EndProject
@@ -10,6 +10,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstDegree", "FirstDegree\FirstDegree.csproj", "{4A031AEB-FABA-405E-BBFE-2498104A045B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadraticEquation", "QuadracEquation\QuadraticEquation.csproj", "{2F163512-7A2D-418E-B496-9F5A5E8576BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringInteraction", "StringInteraction\StringInteraction.csproj", "{4C26F926-4BA9-4CD8-8420-3F6CBC4832BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMath", "SimpleMath\SimpleMath.csproj", "{D18A526D-15E6-4D54-B7B7-506E4991E20F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{2F163512-7A2D-418E-B496-9F5A5E8576BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F163512-7A2D-418E-B496-9F5A5E8576BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F163512-7A2D-418E-B496-9F5A5E8576BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C26F926-4BA9-4CD8-8420-3F6CBC4832BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C26F926-4BA9-4CD8-8420-3F6CBC4832BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C26F926-4BA9-4CD8-8420-3F6CBC4832BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C26F926-4BA9-4CD8-8420-3F6CBC4832BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D18A526D-15E6-4D54-B7B7-506E4991E20F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D18A526D-15E6-4D54-B7B7-506E4991E20F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D18A526D-15E6-4D54-B7B7-506E4991E20F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D18A526D-15E6-4D54-B7B7-506E4991E20F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
