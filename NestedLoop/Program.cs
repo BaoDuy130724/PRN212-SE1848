@@ -48,8 +48,10 @@ void sort_arr2(int[] arr)
             {
                 swap(ref arr[i], ref arr[j]);
             }
-        } while (j++ < arr.Length);
-    } while (i++ < arr.Length);
+            j++;
+        } while (j < arr.Length);
+        i++;    
+    } while (i < arr.Length);
 }
 // nested Loop for drawing
 void draw (int n)
@@ -102,7 +104,7 @@ Console.WriteLine("\n--------------------------------");
 int[] arr2 = new int[5];
 create_arr(arr2);
 print_arr(arr2);
-sort_arr1(arr2);
+sort_arr2(arr2);
 Console.WriteLine("\nAfter Sorting Using do-while.....");
 print_arr(arr2);
 Console.WriteLine("\n--------------------------------");
