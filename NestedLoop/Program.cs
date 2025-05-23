@@ -51,7 +51,7 @@ void sort_arr2(int[] arr)
             j++;
         } while (j < arr.Length);
         i++;    
-    } while (i < arr.Length);
+    } while (i < arr.Length-1);
 }
 // nested Loop for drawing
 void draw (int n)
