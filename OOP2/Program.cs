@@ -1,0 +1,31 @@
+﻿using OOP2;
+
+Console.OutputEncoding = System.Text.Encoding.UTF8;
+FullTimeEmployee obama = new FullTimeEmployee();
+obama.Id = 1;
+obama.IdCard = "123456789";
+obama.Name = "barac obama";
+obama.Birthday = new DateTime(1961, 8, 4);
+Console.WriteLine("Thong tin cua obama: ");
+Console.WriteLine($"Id: {obama.Id}");
+Console.WriteLine($"IdCard: {obama.IdCard}");
+Console.WriteLine($"Name: {obama.Name}");
+Console.WriteLine($"Birthday: {obama.Birthday.ToString("dd/MM/yyyy")}");
+Console.WriteLine($"Luong cua obama: {obama.calSalary()}");
+Console.WriteLine("-----------------------------------------------");
+PartTimeEmployee trump =  new PartTimeEmployee();
+trump.Id = 2;
+trump.IdCard = "987654321";
+trump.Name = "Donald Trump";
+trump.Birthday = new DateTime(1946, 6, 14);
+trump.HoursWorked = 2; // Assuming he worked 40 hours
+Console.WriteLine("Thong tin cua trump: ");
+Console.WriteLine($"ID: {trump.Id}");
+Console.WriteLine($"IdCard: {trump.IdCard}");
+Console.WriteLine($"Name: {trump.Name}");
+Console.WriteLine($"Birthday: {trump.Birthday.ToString("dd/MM/yyyy")}");
+Console.WriteLine($"Luong cua trump: {trump.calSalary()}");
+Console.WriteLine("-----------------------------------------------");
+Console.WriteLine("Thong tin cach 2 cua nhan su");
+Console.WriteLine(obama);
+Console.WriteLine(trump);
