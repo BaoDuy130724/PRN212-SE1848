@@ -72,3 +72,5 @@ double pe_SumSalary = employees.OfType<PartTimeEmployee>().Sum(pe => pe.calSalar
 Console.WriteLine("tổng lương nhân viên thời vụ: " + pe_SumSalary);
 double sumSalary = fe_SumSalary + pe_SumSalary;
 Console.WriteLine("Tổng lương phải trả cho toàn bộ nhân viên: " + sumSalary);
+//BTVN
+//Các tính năng xóa và sửa 
