@@ -24,3 +24,34 @@ Customer c4 = c3;
 c3 = c1; // c3 trỏ tới vùng nhớ mà c1 đang quản lý
          // không thu hồi ô nhớ mà c3 đã quản lý trước đó (ở line 22)
          // Vì c4 đang quản lý ô nhớ mà c3 đã quản lý trước đó
+
+Product p1 = new Product { ID = 1, Name = "p1", Quantity = 10, Price = 20 };
+Product p2 = new Product { ID = 2, Name = "p2", Quantity = 15, Price = 22 };
+
+p1 = p2; // p1 trỏ tới vùng nhớ p2 
+Console.WriteLine("Thong tin p1");
+Console.WriteLine(p1);
+Console.WriteLine("Thong tin p2");
+Console.WriteLine(p2);
+p2.Name = "Thuoc tri hoi nach";
+p2.Quantity = 100;
+p2.Price = 200;
+Console.WriteLine("thong tin p1 khi p2 doi");
+Console.WriteLine(p1);
+
+Product p3 = new Product { ID = 3, Name = "p3", Quantity = 20, Price = 23 };
+Product p4 = new Product { ID = 4, Name = "p4", Quantity = 25, Price = 24 };
+Product p5 = p3;
+p3 = p4;
+p5 = p3;
+Product p6 = p4.Clone(); // sao chép toàn bộ dữ liệu trong ô p4 đang quản lý sang ô nhớ mới 
+                         // p6 sẽ quản lý một ô nhớ mới đó, không còn liên quan gì đến p4 
+Console.WriteLine("Thong tin p4");
+Console.WriteLine(p4);
+Console.WriteLine("Thong tin p6");
+Console.WriteLine(p6);
+p4.Name = "thuoc tri xam";
+Console.WriteLine("Thong tin p4");
+Console.WriteLine(p4);
+Console.WriteLine("Thong tin p6");
+Console.WriteLine(p6);  
