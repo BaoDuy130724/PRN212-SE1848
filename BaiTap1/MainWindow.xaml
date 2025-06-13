@@ -1,0 +1,33 @@
+﻿<Window x:Class="BaiTap1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BaiTap1"
+        mc:Ignorable="d"
+        Title="SE182424-Lê Trần Bảo Duy" Height="450" Width="800">
+    <Grid>
+        <Label Content="Hệ số _a:" 
+               Target="{Binding ElementName=txtNumbera}"
+               HorizontalAlignment="Left" Height="36" Margin="47,53,0,0" VerticalAlignment="Top" Width="94" FontSize="20" FontWeight="Bold"/>
+        <TextBox x:Name="txtNumbera" HorizontalAlignment="Left" Height="30" Margin="47,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="630" FontSize="20"/>
+        <Label Content="Hệ số _b:" 
+               Target="{Binding ElementName=txtNumberb}"
+               HorizontalAlignment="Left" Height="34" Margin="47,146,0,0" VerticalAlignment="Top" Width="94" FontSize="20" FontWeight="Bold"/>
+        <TextBox x:Name="txtNumberb" HorizontalAlignment="Left" Height="32" Margin="47,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="630" FontSize="20"/>
+        <Label Content="Kết quả:" HorizontalAlignment="Left" Height="34" Margin="47,244,0,0" VerticalAlignment="Top" Width="94" FontSize="20" FontWeight="Bold"/>
+        <TextBlock x:Name="txtResult" HorizontalAlignment="Left" Height="38" Margin="47,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="630" FontSize="20" Foreground="Black" Background="#FFEDF014"/>
+        <Button HorizontalAlignment="Left" Height="42" Margin="141,353,0,0" VerticalAlignment="Top" Width="148" FontSize="20" Click="sum_click">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Image Source="/Image/sum.png" Width="20" Height="20" Margin="0,0,10,0"/>
+                <TextBlock Text="Tổng" VerticalAlignment="Center"/>
+            </StackPanel>
+        </Button>
+        <Button HorizontalAlignment="Left" Height="42" Margin="486,353,0,0" VerticalAlignment="Top" Width="141" FontSize="20" Click="exit_click">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Image Source="/Image/exit.png" Width="20" Height="20" Margin="0,0,10,0"/>
+                <TextBlock Text="Thoát" VerticalAlignment="Center"/>
+            </StackPanel>
+        </Button>
+    </Grid>
+</Window>
