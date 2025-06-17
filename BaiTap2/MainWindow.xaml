@@ -5,14 +5,58 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BaiTap2"
         mc:Ignorable="d"
-        Title="SE182424-Lê Trần Bảo Duy" Height="450" Width="800">
+        Title="SE182424-Lê Trần Bảo Duy" Height="380" Width="545">
     <Grid>
         <Label HorizontalAlignment="Left" Height="43" Margin="41,37,0,0" VerticalAlignment="Top" Width="273" FontSize="20" Content="Bạn thích những gì?"/>
-        <CheckBox x:Name="chkToanBo" Content="Thích toàn bộ hoạt động." HorizontalAlignment="Left" Height="26" Margin="41,100,0,0" VerticalAlignment="Top" Width="273" FontSize="20" Checked="chkToanBo_Checked" Unchecked="chkToanBo_Unchecked"/>
-        <CheckBox x:Name="chkCongNghe" Content="Thích nghiên cứu công nghệ" HorizontalAlignment="Left" Height="29" Margin="41,131,0,0" VerticalAlignment="Top" Width="307" FontSize="20" Checked="chkSub_CheckedChanged" Unchecked="chkSub_CheckedChanged" />
-        <CheckBox x:Name="chkDuLich" Content="Thích đi du lịch" HorizontalAlignment="Left" Height="29" Margin="41,165,0,0" VerticalAlignment="Top" Width="273" FontSize="20" Unchecked="chkSub_CheckedChanged" Checked="chkSub_CheckedChanged" />
-        <CheckBox x:Name="chkBongDa" Content="Thích đi đá bóng" HorizontalAlignment="Left" Height="32" Margin="41,199,0,0" VerticalAlignment="Top" Width="273" FontSize="20" RenderTransformOrigin="0.506,-0.336" Checked="chkSub_CheckedChanged" Unchecked="chkSub_CheckedChanged"/>
-        <CheckBox x:Name="chkXemPhim" Content="Thích đi xem phim" HorizontalAlignment="Left" Height="35" Margin="41,236,0,0" VerticalAlignment="Top" Width="273" FontSize="20" Checked="chkSub_CheckedChanged" Unchecked="chkSub_CheckedChanged"/>
-
+        <CheckBox x:Name="chkToanBo" Content="Thích toàn bộ hoạt động." HorizontalAlignment="Left" Height="26" Margin="111,98,0,0" VerticalAlignment="Top" Width="274" Checked="chkToanBo_Checked" Unchecked="chkToanBo_Unchecked" RenderTransformOrigin="0.5,0.5">
+            <CheckBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </CheckBox.RenderTransform>
+        </CheckBox>
+        <CheckBox x:Name="chkCongNghe" Content="Thích nghiên cứu công nghệ" HorizontalAlignment="Left" Height="29" Margin="151,138,0,0" VerticalAlignment="Top" Width="307" Checked="chkSub_CheckedChanged" Unchecked="chkSub_CheckedChanged" RenderTransformOrigin="0.5,0.5" >
+            <CheckBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </CheckBox.RenderTransform>
+        </CheckBox>
+        <CheckBox x:Name="chkDuLich" Content="Thích đi du lịch" HorizontalAlignment="Left" Height="30" Margin="143,187,0,0" VerticalAlignment="Top" Width="274" Unchecked="chkSub_CheckedChanged" Checked="chkSub_CheckedChanged" RenderTransformOrigin="0.5,0.5" >
+            <CheckBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </CheckBox.RenderTransform>
+        </CheckBox>
+        <CheckBox x:Name="chkBongDa" Content="Thích đi đá bóng" HorizontalAlignment="Left" Height="32" Margin="141,214,0,0" VerticalAlignment="Top" Width="273" RenderTransformOrigin="0.506,-0.336" Checked="chkSub_CheckedChanged" Unchecked="chkSub_CheckedChanged">
+            <CheckBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform X="2"/>
+                </TransformGroup>
+            </CheckBox.RenderTransform>
+        </CheckBox>
+        <CheckBox x:Name="chkXemPhim" Content="Thích đi xem phim" HorizontalAlignment="Left" Height="35" Margin="142,281,0,0" VerticalAlignment="Top" Width="274" Checked="chkSub_CheckedChanged" Unchecked="chkSub_CheckedChanged" RenderTransformOrigin="0.5,0.5">
+            <CheckBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </CheckBox.RenderTransform>
+        </CheckBox>
     </Grid>
 </Window>
