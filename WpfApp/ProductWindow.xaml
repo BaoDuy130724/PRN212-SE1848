@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="ProductWindow" Height="531" Width="800">
     <Grid>
-        <ListView x:Name="lvProduct" d:ItemsSource="{d:SampleData ItemCount=5}" FontSize="20" Margin="0,0,0,315">
+        <ListView x:Name="lvProduct" d:ItemsSource="{d:SampleData ItemCount=5}" FontSize="20" Margin="0,0,0,315" SelectionChanged="lvProduct_SelectionChanged">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="Mã Sản Phẩm" DisplayMemberBinding="{Binding Id}"/>
@@ -18,14 +18,15 @@
             </ListView.View>
         </ListView>
         <Label Content="Mã Sản phầm: " HorizontalAlignment="Left" Height="34" Margin="32,217,0,0" VerticalAlignment="Top" Width="109" FontSize="15"/>
-        <TextBox x:Name="txtid" HorizontalAlignment="Left" Height="34" Margin="172,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228"/>
+        <TextBox x:Name="txtid" HorizontalAlignment="Left" Height="24" Margin="172,222,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228"/>
         <Label Content="Tên Sản phầm: " HorizontalAlignment="Left" Height="34" Margin="32,269,0,0" VerticalAlignment="Top" Width="109" FontSize="15"/>
-        <TextBox x:Name="txtname" HorizontalAlignment="Left" Height="34" Margin="172,269,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228"/>
+        <TextBox x:Name="txtname" HorizontalAlignment="Left" Height="24" Margin="172,274,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228"/>
         <Label Content="Số lượng: " HorizontalAlignment="Left" Height="34" Margin="32,324,0,0" VerticalAlignment="Top" Width="109" FontSize="15"/>
-        <TextBox x:Name="txtquantity" HorizontalAlignment="Left" Height="34" Margin="172,324,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228"/>
+        <TextBox x:Name="txtquantity" HorizontalAlignment="Left" Height="26" Margin="172,328,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228"/>
         <Label Content="Đơn giá " HorizontalAlignment="Left" Height="34" Margin="32,374,0,0" VerticalAlignment="Top" Width="109" FontSize="15"/>
-        <TextBox x:Name="txtprice" HorizontalAlignment="Left" Height="34" Margin="172,374,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228"/>
-        <Button x:Name="btnSave" Content="Lưu sản phẩm" HorizontalAlignment="Left" Height="37" Margin="295,454,0,0" VerticalAlignment="Top" Width="161" Click="btnSave_Click" FontSize="15"/>
-
+        <TextBox x:Name="txtprice" HorizontalAlignment="Left" Height="26" Margin="172,378,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228"/>
+        <Button x:Name="btnSave" Content="Thêm sản phẩm" HorizontalAlignment="Left" Height="37" Margin="104,452,0,0" VerticalAlignment="Top" Width="160" Click="btnSave_Click" FontSize="15"/>
+        <Button x:Name="btnSua" Content="Sửa" HorizontalAlignment="Left" Height="37" Margin="308,452,0,0" VerticalAlignment="Top" Width="160" Click="btnSua_Click" FontSize="15"/>
+        <Button x:Name="btnXoa" Content="Xóa" HorizontalAlignment="Left" Height="37" Margin="508,452,0,0" VerticalAlignment="Top" Width="160" Click="btnXoa_Click" FontSize="15"/>
     </Grid>
 </Window>
