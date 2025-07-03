@@ -91,6 +91,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter7_TreeView", "Chapte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeViewWpfApp", "TreeViewWpfApp\TreeViewWpfApp.csproj", "{2C07CA1A-B3A2-41DB-99A7-80890FF2F26E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter8", "Chapter8", "{0BAC447F-8D2C-48BC-A642-0FD377BD58EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyStoreWpfApp_EntityFramework", "MyStoreWpfApp_EntityFramework\MyStoreWpfApp_EntityFramework.csproj", "{7A36D30C-6577-4486-A9B7-B292A7DB638C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -253,6 +257,10 @@ Global
 		{2C07CA1A-B3A2-41DB-99A7-80890FF2F26E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C07CA1A-B3A2-41DB-99A7-80890FF2F26E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C07CA1A-B3A2-41DB-99A7-80890FF2F26E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A36D30C-6577-4486-A9B7-B292A7DB638C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A36D30C-6577-4486-A9B7-B292A7DB638C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A36D30C-6577-4486-A9B7-B292A7DB638C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A36D30C-6577-4486-A9B7-B292A7DB638C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -280,6 +288,7 @@ Global
 		{49E99E0D-0F7F-4EE6-A712-1C7891685A37} = {C9FEDDC9-6F48-4CCF-B4AA-87203F3DB1D9}
 		{3F66B8A2-7D6A-43B0-BC9E-360B80C77C33} = {C9FEDDC9-6F48-4CCF-B4AA-87203F3DB1D9}
 		{2C07CA1A-B3A2-41DB-99A7-80890FF2F26E} = {FE56845C-C97C-4DD3-A9D0-D82BB3130146}
+		{7A36D30C-6577-4486-A9B7-B292A7DB638C} = {0BAC447F-8D2C-48BC-A642-0FD377BD58EA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DB4AE1AF-86CB-4479-B5E9-07BC797F3DC2}
